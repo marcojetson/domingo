@@ -41,4 +41,4 @@ or "hey domingo"
 
 ## Disclaimer
 
-This is not a serious project and I have no plans on maintaining it, don't use it
+This is not a serious project, don't use it
