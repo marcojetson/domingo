@@ -4,7 +4,7 @@ import subprocess
 
 adapters = (
     "say",
-    "espeaxk",
+    "espeak",
 )
 
 
