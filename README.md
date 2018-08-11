@@ -19,11 +19,13 @@ A not-so-smart virtual assistant
 Domingo can answer some basic questions, try the following phrases:
 
 - What's the time?
+- Tell me a joke
 - What's up?
 - Roll a dice
 - Thank you
 - Is it raining? / Is it raining in X?
 - Is it snowing? / Is it snowing in X?
+- Look up X
 
 
 #### Custom commands
