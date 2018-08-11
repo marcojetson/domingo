@@ -1,6 +1,6 @@
 # Domingo
 
-A third-world country virtual assistant
+A not-so-smart virtual assistant
 
 
 ## Installation
