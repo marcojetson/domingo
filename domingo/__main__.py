@@ -1,11 +1,10 @@
 import argparse
-import imp
 import logging
+import imp
+from domingo import text_to_speech
 from os.path import abspath, dirname
 
 from speech_recognition import Recognizer, Microphone, UnknownValueError
-
-from domingo.text_to_speech import say
 
 app_dir = dirname(abspath(__file__))
 
@@ -56,6 +55,8 @@ if args.settings:
     settings = imp.load_source("", args.settings)
 else:
     import domingo.defaults as settings
+
+say = text_to_speech.create_adapter()
 
 recognizer = Recognizer()
 source = Microphone()
