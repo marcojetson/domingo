@@ -65,13 +65,13 @@ with source: recognizer.adjust_for_ambient_noise(source)
 logger.info("minimum energy threshold set to %s" % recognizer.energy_threshold)
 
 while True:
-    logger.info("listening...")
+    print("listening...")
     with source:
         audio = recognizer.listen(source)
 
     try:
         text = recognizer.recognize_google(audio)
-        logger.info("> %s" % text)
+        print("> %s" % text)
 
         for normalization in settings.normalizations:
             text = normalization(text)
@@ -89,7 +89,7 @@ while True:
             result = command.handle(text)
 
             if result:
-                logger.info("< %s" % result)
+                print("< %s" % result)
                 say(result)
 
             break

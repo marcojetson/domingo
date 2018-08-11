@@ -13,7 +13,6 @@ commands = (
     Time(),
     WhatsUp(),
     Dice(),
-    Time(),
     Welcome(),
     Rains("Berlin"),
     Snows("Berlin"),
